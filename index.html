@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="icon" type="image/svg+xml" href="./public/youtube-logo-icone-bleue.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rushando Shorts</title>
+  </head>
+  <body>
+    <div id="app">
+      <img src="./public/youtube-logo-icone-bleue.png" alt="Logo" />
+      <h1>Rushando Shorts</h1>
+
+      <form id="form">
+        <input type="url" id="url" placeholder="Escolha um Shorts para rushar" />
+        <button title="Resumir">
+          <i class="ph ph-play"></i>
+        </button>
+      </form>
+      
+      <button id="theme-toggle" title="Alternar Tema">
+  <i class="ph ph-sun"></i>
+</button>
+
+      <h2>Rush</h2>
+      <p id="content" class="placeholder">Resumo do Shorts</p>
+      <h3>Principais Rushadores</h3>
+      <section>
+        <div class="conteiner">
+          <a href="https://www.youtube.com/@Polo_Rush">
+            <img src="./public/Polo.png" alt="">
+          </a>
+          <a href="https://www.youtube.com/@eonaggi">
+            <img src="./public/Naggi.png" alt="">
+          </a>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>
